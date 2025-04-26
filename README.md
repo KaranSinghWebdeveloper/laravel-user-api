@@ -71,8 +71,8 @@ commands:
 
 1. composer install
 2. php artisan migrate
-   for db select [yes]
-   if(error=true){ check .env (DB_PORT=4306)}
+   => for db select [yes]
+   => if(error=true){ check .env (DB_PORT=4306)}
 4. php artisan db:seed
 5. php artisan serve
 6. Then, you can open the URL to fetch the user data from the API.
