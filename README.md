@@ -65,3 +65,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# laravel-user-api" 
+
+
+commands:
+
+1. composer install
+2. php artisan migrate
+   for db select [yes]
+   if(error=true){ check .env (DB_PORT=4306)}
+4. php artisan db:seed
+5. php artisan serve
+6. Then, you can open the URL to fetch the user data from the API.
